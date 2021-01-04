@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="18a36a33b6c44db2ad3e187c2dc8252d" Name="Diagram1" ZoomLevel="92">
+        <EntityTypeShape EntityType="FinalProjectModel.Address" Width="1.5" PointX="0.75" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="FinalProjectModel.Appointment" Width="1.5" PointX="5.25" PointY="3.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="FinalProjectModel.Disease" Width="1.5" PointX="0.75" PointY="2" IsExpanded="true" />
+        <EntityTypeShape EntityType="FinalProjectModel.Doctor" Width="1.5" PointX="3" PointY="4.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="FinalProjectModel.Patient" Width="1.5" PointX="3" PointY="8.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="FinalProjectModel.Prescription" Width="1.5" PointX="5.25" PointY="6.375" IsExpanded="true" />
+        <AssociationConnector Association="FinalProjectModel.FK__Doctors__Address__24E777C3" ManuallyRouted="false" />
+        <AssociationConnector Association="FinalProjectModel.FK__Patients__Addres__220B0B18" ManuallyRouted="false" />
+        <AssociationConnector Association="FinalProjectModel.FK__Appointme__Docto__2B947552" ManuallyRouted="false" />
+        <AssociationConnector Association="FinalProjectModel.FK__Doctors__Disease__25DB9BFC" ManuallyRouted="false" />
+        <AssociationConnector Association="FinalProjectModel.FK__Prescript__Docto__28B808A7" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="FinalProjectModel.PatientDiseaseRelation" Width="1.875" PointX="7.5" PointY="5.5" />
+        <AssociationConnector Association="FinalProjectModel.FK__PatientDi__Appoi__50C5FA01" />
+        <AssociationConnector Association="FinalProjectModel.FK__PatientDi__Disea__4FD1D5C8" />
+        <AssociationConnector Association="FinalProjectModel.FK__PatientDi__Patie__4EDDB18F" />
+        <AssociationConnector Association="FinalProjectModel.FK__PatientDi__Presc__51BA1E3A" />
+        <EntityTypeShape EntityType="FinalProjectModel.DoctorsThatDontHaveAppointmentToday" Width="1.5" PointX="13.5" PointY="1" />
+        <EntityTypeShape EntityType="FinalProjectModel.PatientsWaitingAppointment" Width="1.5" PointX="11.875" PointY="1" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
